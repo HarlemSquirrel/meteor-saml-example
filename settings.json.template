@@ -1,0 +1,13 @@
+{
+  "saml": {
+    "loginUrl": "/login",
+    "protocol": "http",
+    "host": "localhost:3000",
+    "path": "/login/callback",
+    "entryPoint": "https://CHANGE-ME",
+    "issuer": "https://CHANGE-ME",
+    "cert": "CHANGE-ME",
+    "disableRequestedAuthnContext": true,
+    "metadataUrl": "/metadata"
+  }
+}
